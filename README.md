@@ -1,40 +1,35 @@
 # ![Logo](docs/leaf.svg) RetardedDB README
 
-Welcome to MongoDB!
+Welcome to RetardedDB!
 
 ## Components
 
-  - `mongod` - The database server.
-  - `mongos` - Sharding router.
-  - `mongo`  - The database shell (uses interactive javascript).
+  - `retarded` - The database server.
+  - `retardes` - Sharding router.
+  - `retard`  - The database shell (uses interactive javascript).
 
-
-## Download MongoDB
-  - https://www.mongodb.com/try/download/community
-  - Using homebrew `brew tap mongodb/brew`
-  - Using docker image `docker pull mongo`
 
 
 ## Building
 
-  See [Building MongoDB](docs/building.md).
+  See [Building RetardedDB](docs/building.md).
 
 ## Running
 
   For command line options invoke:
 
   ```bash
-  $ ./mongod --help
+  $ ./retarded --help
   ```
 
   To run a single server database:
 
   ```bash
     $ sudo mkdir -p /data/db
-    $ ./mongod
+    $ ./retarded
     $
     $ # The mongo javascript shell connects to localhost and test database by default:
-    $ ./mongo
+    $ ./retard
     > help
   ```
 
